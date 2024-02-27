@@ -1,0 +1,29 @@
+# Definición de variables y asignación de valores
+definir variable mensaje;
+asignar "¡Hola!" a mensaje;
+# o bien
+definir variable mensaje = "¡Hola!";
+
+# Ciclos repetitivos
+sea numero = 0; con numero <= 5; iterando en 1 -> (
+    imprimir numero;
+)
+mientras numero < 9 -> (
+    imprimir numero;
+    asignar (numero + 1) a numero;
+)
+
+# Condición simple
+si mensaje == "hola" -> (
+    imprimir "¡holap!";
+) en cambio (
+    imprimir "¡adiós!";
+)
+
+# Condición combinada
+si mensaje == "hola" -> (
+    imprimir "¡holap!";
+) en cambio si mensaje == "adios" -> (
+    imprimir "¡adiós!";
+)
+
