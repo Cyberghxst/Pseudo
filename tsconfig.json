@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "declaration": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "incremental": true,
+        "module": "CommonJS",
+        "outDir": "dist",
+        "rootDir": "src",
+        "resolveJsonModule": true,
+        "pretty": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "target": "ES2022"
+    }
+}
