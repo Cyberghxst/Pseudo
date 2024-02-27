@@ -13,5 +13,13 @@
         "strict": true,
         "skipLibCheck": true,
         "target": "ES2022"
-    }
+    },
+    "exclude": [
+        "dist",
+        "node_modules",
+        "__test__"
+    ],
+    "include": [
+        "./src/**/*.ts"
+    ]
 }
